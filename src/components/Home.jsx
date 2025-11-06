@@ -76,45 +76,45 @@ export default function Home() {
             </section>
 
             {/* ===== CARD SECTION ===== */}
-            <section id="about" className="bg-white py-10 px-6 flex flex-col md:flex-row justify-center items-center gap-10">
+            <section id="#about" className="bg-white py-10 px-6 flex flex-col md:flex-row justify-center items-center gap-10">
                 <div className="text-center">
-                    <img
+                    <a href="#gallery"><img
                         src={travelBlog}
                         alt="Travel Blog"
                         className="w-[280px] h-[180px] object-cover rounded-md shadow-md hover:scale-105 transition"
                     />
                     <h3 className="mt-3 text-sm font-semibold uppercase tracking-wider">
                         Travel Blog
-                    </h3>
+                    </h3></a>
                 </div>
 
                 <div className="text-center">
-                    <img
+                    <a href="#gallery"><img
                         src={destinations}
                         alt="Destinations"
                         className="w-[280px] h-[180px] object-cover rounded-md shadow-md hover:scale-105 transition"
                     />
                     <h3 className="mt-3 text-sm font-semibold uppercase tracking-wider">
                         Destinations
-                    </h3>
+                    </h3></a>
                 </div>
 
                 <div className="text-center">
-                    <img
+                    <a href="#gallery"><img
                         src={aboutImg}
                         alt="About"
                         className="w-[280px] h-[180px] object-cover rounded-md shadow-md hover:scale-105 transition"
                     />
                     <h3 className="mt-3 text-sm font-semibold uppercase tracking-wider">
                         Gallery
-                    </h3>
+                    </h3></a>
                 </div>
             </section>
 
 
 
             {/*======Blogs=====*/}
-            <section id="blog" className="bg-white py-16 px-6 md:px-20 lg:px-32">
+            <section id="#blog" className="bg-white py-16 px-6 md:px-20 lg:px-32">
                 <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
 
                     {/* LEFT - IMAGE */}
